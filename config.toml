@@ -1,0 +1,60 @@
+baseurl         = "https//"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Example Site"
+  subtitle    = "My Awesome Hugo Site"
+
+  cover       = ""
+  description = "My almost first hugo site"
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "faketryghost"
+  fbName = "fakeghost"
+  githubName = "eueung"
+
+  logo = ""
+  orgName = "EM"
+  orgWebsite = "https://www.telematika.org"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "Jonathon Emery"
+  authorAvatar = "uploads/jonathon.jpg"
+  authorLocation = "Portland, OR"
+  authorWebsite = "https://eueung.github.io"
+  authorDescription = "SEO Consultant"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Main"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Services"
+  url = "/tags/golang/"
+  weight = 100
+
+[[menu.main]]
+  name = "Blog"
+  url = "/categories/blog/"
+  weight = 99
+
+[[menu.main]]
+  name = "External"
+  url = "https://google.com/"
+  weight = 95
